@@ -1,0 +1,13 @@
+{
+    "node1": "x.x.x.x",
+    "node2": "x.x.x.x",
+    "ca1": "x.x.x.x",
+    "sshUser": "sshUser",
+    "passnode1": "aS3cUr3P@$$w0rd",
+    "passnode2": "aS3cUr3P@$$w0rd",
+    "passca1": "aS3cUr3P@$$w0rd",
+    "sshPortNode1": "x",
+    "sshPortNode2": "x",
+    "sshPortCA1": "x",
+    "UPNPCCheck": "0 Protocol x->x.x.x.x:x 'libminiupnpc' '0.0.0.0' 0"
+}

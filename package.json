@@ -1,0 +1,54 @@
+{
+	"name": "nodejs-pterocontrolbot",
+	"version": "1.0.0",
+	"description": "A simple Pterodactyl Control bot",
+	"main": "index.js",
+	"dependencies": {
+		"axios": "^0.21.1",
+		"better-sqlite3": "^7.4.3",
+		"chalk": "^4.1.1",
+		"discord.js": "github:discordjs/discord.js",
+		"discord.js-commando": "github:discordjs/Commando",
+		"enmap": "^5.8.7",
+		"ffmpeg": "^0.0.4",
+		"ffmpeg-static": "^4.4.0",
+		"fluent-ffmpeg": "^2.1.2",
+		"klaw": "^3.0.0",
+		"moment": "^2.29.1",
+		"moment-duration-format": "^2.3.2",
+		"mysql": "^2.18.1",
+		"node-opus": "^0.3.3",
+		"nodeactyl": "^3.0.5",
+		"nodeactyl-v1-support": "^1.5.1",
+		"npm": "^7.20.0",
+		"onchange": "^7.1.0",
+		"opusscript": "^0.0.8",
+		"readline-sync": "^1.4.10",
+		"serialize-javascript": "^6.0.0",
+		"simple-ssh": "^1.0.0",
+		"string-table": "^0.1.5"
+	},
+	"devDependencies": 
+	{
+		"eslint": "^7.31.0",
+		"eslint-config-airbnb-base": "^14.2.1",
+		"eslint-config-standard": "^16.0.3",
+		"eslint-plugin-import": "^2.23.4",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-promise": "^5.1.0",
+		"eslint-plugin-standard": "^4.1.0"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bountythebeast/PteroBot.git"
+	},
+	"author": "No1's Perfect | Server Host#6666",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/bountythebeast/PteroBot/issues"
+	},
+	"homepage": "https://github.com/bountythebeast/PteroBot#readme"
+}
