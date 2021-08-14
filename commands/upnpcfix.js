@@ -11,7 +11,7 @@ class upnpcfix extends Command
 			name: "upnpcfix", //command name, should match class.
 			description: "A command to fix port issues with UPNPC on the backend. It automatically checks if it needs to run.", //description
             usage: "upnpcfix ", //usage details. Should match the name and class
-            category: "Bot Admin Commands",
+            category: "Pterodactyl",
             permLevel: "Bot Admin",
 			aliases: ["upnpc","upnpcfix","upnpcupdate","portfix","fixports"]
 		});
@@ -23,7 +23,7 @@ class upnpcfix extends Command
         {
             host: serverInfo.node2,
             user: serverInfo.sshUser,
-            pass: serverInfo.sshPassword,
+            pass: serverInfo.passnode2,
             port: serverInfo.sshPortNode2        
         });
         //run upnpc -l and see if it has data.

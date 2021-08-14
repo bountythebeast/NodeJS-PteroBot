@@ -13,6 +13,7 @@ class panelsync extends Command
 			name: "panelsync", //command name, should match class.
 			description: "Use this command to sync your Discord UID (unique ID) with a panel key \n To get an API key, Sign into the panel and click the 'head' icon in the top right. Give it a description, and hit create. Paste the **FULL** key after the command.  ", //description
 			usage: "panelsync <Panel API Key>", //usage details. Should match the name and class
+            category: "Pterodactyl",
 			aliases: ["apisync"]
 		});
 	}

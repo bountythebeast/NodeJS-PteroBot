@@ -15,7 +15,7 @@ class restartserver extends Command
 			name: "restartserver", //command name, should match class.
 			description: "Admin command for use with Panel commands.", //description
             usage: "restartserver <server name> | leave blank for all. Full list of Options (currently): \n <your list here>", //usage details. Should match the name and class
-            category: "Bot Admin Commands",
+            category: "Pterodactyl",
             permLevel: "Bot Admin"
 		});
 	}

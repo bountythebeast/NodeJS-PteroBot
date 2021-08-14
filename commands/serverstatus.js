@@ -15,7 +15,7 @@ class serverstatus extends Command
 			name: "serverstatus", //command name, should match class.
 			description: "Admin command for use with Panel commands.", //description
             usage: "serverstatus <server name> | leave blank for all.", //usage details. Should match the name and class
-            category: "Bot Admin Commands",
+            category: "Pterodactyl",
             permLevel: "Bot Admin"
 		});
 	}

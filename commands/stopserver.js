@@ -15,7 +15,7 @@ class stopserver extends Command
 			name: "stopserver", //command name, should match class.
 			description: "Admin command for use with Panel commands.", //description
             usage: "stopserver <server name> | leave blank for all. Full list of Options (currently): \n survival,fivem,hub,rsp,relaxedsurvivalplus,skyblock,survivalhub,bungee,creative,factions,stafftest,limbo,login,ark,bo3,blackops,blackops3,cod4", //usage details. Should match the name and class
-            category: "Bot Admin Commands"
+            category: "Pterodactyl"
 		});
 	}
 

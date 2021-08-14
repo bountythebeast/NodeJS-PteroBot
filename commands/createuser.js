@@ -12,7 +12,7 @@ class createuser extends Command
 			name: "createuser", //command name, should match class.
 			description: "This is to create a user account on the panel. DM ONLY.", //description
             usage: "createuser <email> <password>", //usage details. Should match the name and class
-            category: "System"
+            category: "Pterodactyl"
 		});
 	}
 
@@ -42,7 +42,7 @@ class createuser extends Command
                             Application.createUser(username,password,email,firstname,lastname,false,"en").then(user =>
                             {
                                 console.log(user)
-                                message.channel.send("Your user was created! You can log in with your email and password by navigating to: \n https://panel.YourPanel.com ! Welcome aboard!\nPlease note, Your 'username' is your discord Snowflake* ID. This is to prevent abuse, but you may change this at any time from the panel. \n >> Please note, Changing your username will disable panel bot commands for you!")
+                                message.channel.send(`Your user was created! You can log in with your email and password by navigating to: \n ${PterodactylPanel.HOST} ! Welcome aboard!\nPlease note, Your 'username' is your discord Snowflake* ID. This is to prevent abuse, but you may change this at any time from the panel. \n >> Please note, Changing your username will disable panel bot commands for you!`)
                             })
                             .catch(err =>
                             {

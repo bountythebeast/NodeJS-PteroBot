@@ -10,8 +10,8 @@ class restartwings extends Command
 		{
 			name: "restartwings", //command name, should match class.
 			description: "Restart the wings daemon.", //description
-            usage: "restartwings <node1,node2,laptop> | One of them is required, only accepts 1 argument.", //usage details. Should match the name and class
-            category: "Bot Admin Commands",
+            usage: "restartwings <node1,node2,ca1> | One of them is required, only accepts 1 argument.", //usage details. Should match the name and class
+            category: "Pterodactyl",
             permLevel: "Bot Admin",
 			aliases: ["wings","wing","restartwing"]
 		});

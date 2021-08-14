@@ -12,7 +12,7 @@ class panelapicheck extends Command
 			name: "panelapicheck", //command name, should match class.
 			description: "Admin command to test if the Host/API pair are working properly. Returns true/false.", //description
             usage: "panelapicheck", //usage details. Should match the name and class
-            category: "Bot Admin Commands",
+            category: "Pterodactyl",
             permLevel: "Bot Admin"
 		});
 	}
