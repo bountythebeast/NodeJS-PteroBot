@@ -34,7 +34,7 @@ class createuser extends Command
                     let email = args[0].toString()
                     let firstname = message.author.username.toString()
                     let lastname = "#"+message.author.discriminator.toString()
-                    Application.login(PterodactylPanel.HOST,PterodactylPanel.UserAPI,(logged_in,err) =>
+                    Application.login(PterodactylPanel.HOST,PterodactylPanel.AdminAPI,(logged_in,err) =>
                     {
                         if(logged_in)
                         {

@@ -30,7 +30,7 @@ class startserver extends Command
         Client.login(PterodactylPanel.HOST,PterodactylPanel.ClientAPI, (logged_in, msg) =>
         {
             console.log("Log in Client (user): "+logged_in)
-            Application.login(PterodactylPanel.HOST,PterodactylPanel.ApplicationAPI, (logged_in, msg) =>
+            Application.login(PterodactylPanel.HOST,PterodactylPanel.AdminAPI, (logged_in, msg) =>
             {
                 console.log("Log in Application (admin): "+logged_in)
                 panelSetup(message).then(temp => switchCase(temp))

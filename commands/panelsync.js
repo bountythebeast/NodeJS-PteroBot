@@ -44,15 +44,22 @@ class panelsync extends Command
             {
                 if(paneluserdata)
                 {
+                    let apikeyexists = false;
                     for (let messagedata of Object.values(paneluserdata))
                     {
                         if(messagedata.DiscordID === message.author.id)
                         {
+                            apikeyexists=true;
                             APIKey = messagedata.APIKey
                             message.channel.send("Your discord is linked to: \"**"+APIKey.substring(0,16)+"\"** First 16 digis for security reasons. This is what appears in the panel!")
                         }
                     }
+                    if(!apikeyexists)
+                    {
+                        message.channel.send("You do not have an API key associated with this discord account. Please run panelsync <apikey> to add one!")
+                    }
                 }
+
             }
             else
             {
@@ -72,8 +79,6 @@ class panelsync extends Command
                         {
                             if(paneluserdata)
                             {
-
-                                let tempdata = []
                                 for (let messagedata of Object.values(paneluserdata))
                                 {
                                     if(messagedata.DiscordID === message.author.id)
@@ -82,13 +87,13 @@ class panelsync extends Command
                                     }
                                     else
                                     {
-                                        tempdata.push(messagedata)
+                                        datatofile.push(messagedata)
                                     }
                                 }
                             }
                             if(KeyExists)
                             {
-                                var updatepanelusers = JSON.stringify(tempdata); //may need to stringify above, not here?
+                                var updatepanelusers = JSON.stringify(datatofile); //may need to stringify above, not here?
                                 fs.writeFile(datapath, updatepanelusers, function(err)
                                 {
                                     if(err)
@@ -115,6 +120,7 @@ class panelsync extends Command
                                 {
                                     try
                                     {
+                                        message.channel.send("Attempting to write data to file...")
                                         datatofile.push(newPanelUser)
                                     }
                                     catch(errors)
@@ -132,6 +138,10 @@ class panelsync extends Command
                                         console.log(err.message);
                                         return;
                                     }
+                                    else
+                                    [
+                                        message.channel.send("Data written successfully.")
+                                    ]
                                 });
                             }
                         }
