@@ -19,9 +19,9 @@ Best regards, <br>
     No1's Perfect | Server Host#6666
 <br><br>
 	
-Getting Started:<br>
+Getting Started:<br><br>
 Create a PterodactylPanel.json from the Data.examples file<br>
-	> ApplicationAPI,AdminAPI, and UserAPI should all be an Admin Key. You can generate one by going into the admin panel > ApplicationAPI > create new > read & right all. <br>
+	> AdminAPI should be an Admin Key. You can generate one by going into the admin panel > ApplicationAPI > create new > read & right all. <br>
 	> The Client API should be an admin user API key. You can generate one by going into the user area (clicking the head icon at the top right), then API Credentials, and create a new one. 
 	<br>
 Create a paneusers.json file under the Data folder. Leave this blank, as the bot will handle the rest.

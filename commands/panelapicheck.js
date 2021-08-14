@@ -19,7 +19,7 @@ class panelapicheck extends Command
 
 	async run (message, args, level) 
 	{
-        node.login(PterodactylPanel.Host,PterodactylPanel.APIKey, (logged_in, msg) => 
+        node.login(PterodactylPanel.Host,PterodactylPanel.AdminAPI, (logged_in, msg) => 
         {
             message.channel.send("Host/APIkey **ADMIN KEY** pair worked: "+logged_in)
 			console.log("Host/APIKey pair worked: "+logged_in); // return a Boolean (true/false) if logged in.
