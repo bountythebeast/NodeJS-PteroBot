@@ -17,7 +17,7 @@ ToDos:
 <br>
 Best regards, <br>
     No1's Perfect | Server Host#6666
-
+<br><br>
 	
 Getting Started:
 Create a PterodactylPanel.json from the Data.examples file
