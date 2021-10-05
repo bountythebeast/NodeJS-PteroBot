@@ -33,5 +33,6 @@ module.exports = class {
     // Log that we're ready to serve, so we know the bot accepts commands.
     this.client.logger.log(`${this.client.user.tag}, ready to serve ${this.client.users.cache.size} users in ${this.client.guilds.cache.size} servers.`, "ready");
     this.client.logger.log(`Connected and Running!`); //This is primarily for users running in Pterodactyl/Docker to trigger an 'online' state.
+    this.client.logger.log(`*[WARNING]* This is running Discord.JS - Version 12. Please ensure this code does not have a functioning Version 13 Before continuing!!!`)
   }
 };

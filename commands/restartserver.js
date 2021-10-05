@@ -59,7 +59,7 @@ class restartserver extends Command
                                     resolve(stringTable.create([ret]));
                                 })
                                 break;
-                            case "fivem": //<- LOWER CASE. V Doesn't matter.
+                            case "fivem": //<- *left* LOWER CASE | *Below* V Doesn't matter.
                                 restartServer("9320ca1a","FiveM").then((ret) =>
                                 {
                                     resolve(stringTable.create([ret])); //leaving the above with an example of how it should look.

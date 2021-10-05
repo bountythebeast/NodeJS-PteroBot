@@ -7,8 +7,9 @@
 		"axios": "^0.21.1",
 		"better-sqlite3": "^7.4.3",
 		"chalk": "^4.1.1",
-		"discord.js": "github:discordjs/discord.js",
+		"discord.js": "^13.2.0",
 		"discord.js-commando": "github:discordjs/Commando",
+		"discord.js-v12": "^2.5.0",
 		"enmap": "^5.8.7",
 		"ffmpeg": "^0.0.4",
 		"ffmpeg-static": "^4.4.0",
@@ -23,13 +24,13 @@
 		"npm": "^7.20.0",
 		"onchange": "^7.1.0",
 		"opusscript": "^0.0.8",
+		"paypal-invoices": "^1.5.0",
 		"readline-sync": "^1.4.10",
 		"serialize-javascript": "^6.0.0",
 		"simple-ssh": "^1.0.0",
 		"string-table": "^0.1.5"
 	},
-	"devDependencies": 
-	{
+	"devDependencies": {
 		"eslint": "^7.31.0",
 		"eslint-config-airbnb-base": "^14.2.1",
 		"eslint-config-standard": "^16.0.3",
